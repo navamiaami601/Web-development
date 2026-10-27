@@ -1,0 +1,29 @@
+h1{
+background-color:red;
+}
+body
+{
+   background-color:lightblue;
+   }
+   button[type="reset"]{
+background-color:blue;
+  }
+  button[type="submit"]{
+  background-color:red;
+  }
+  textarea{
+  background-color:powder blue;border:1px solid blue; border-radius:5px;
+  }
+fieldset {
+background-color: yellow;
+}
+fieldset label{
+background-color:white;
+}
+select
+{
+background-color:powder blue;border:1px solid blue; border-radius:5px;
+}
+input{
+background-color:powderblue;
+}
