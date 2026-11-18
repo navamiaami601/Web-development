@@ -1,0 +1,21 @@
+ if(mob=="")
+       {
+       alert("enter phone number");
+       document.form.fname.foucs();
+       return false;
+       }
+       else if(!/^[0-9]{10}$/.test(mob)){
+       alert("enter a  valid 10 digit mobile number");\
+       document.form.mob.focus();
+       return false;
+       f (email=="")
+       {
+       alert("enter email");
+       document.form.email.focus();
+       return false;
+       }
+       else if(!/^[^\s@+@[^\s@+\.[^\s@]+$/.test(email)) {
+       alert("enter your email");
+       document.form.email.focus();
+       return false;
+       }
